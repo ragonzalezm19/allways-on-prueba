@@ -26,10 +26,12 @@
                 </thead>
                 <tbody>
                     <?php foreach($transaciones as $transaccion): ?>
-                        <td><?= $transaccion['tipo_transacion'] ?></td>
-                        <td><?= $transaccion['cuenta_origen'] ?></td>
-                        <td><?= $transaccion['cuenta_destino'] ?></td>
-                        <td><?= $transaccion['monto'] ?></td>
+                        <tr>
+                            <td><?= $transaccion['tipo_transacion'] ?></td>
+                            <td><?= $transaccion['cuenta_origen'] ?></td>
+                            <td><?= $transaccion['cuenta_destino'] ?></td>
+                            <td><?= $transaccion['monto'] ?></td>
+                        </tr>
                     <?php endforeach; ?>
                 </tbody>
             </table>

@@ -1,9 +1,9 @@
 <?php
 	class Database 
 	{
-		private static $dbName = 'always_on_prueba' ; // nombre de la base de datos
-		private static $dbHost = 'localhost' ; // nombre del host
-		private static $dbUsername = 'root'; // usuario de la base de datos
+		private static $dbName = 'allways_on_prueba' ; // nombre de la base de datos
+		private static $dbHost = '' ; // nombre del host
+		private static $dbUsername = ''; // usuario de la base de datos
 		private static $dbUserPassword = ''; // contraseña del usuario
 		
 		private static $cont  = null;
